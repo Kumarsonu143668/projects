@@ -12,7 +12,7 @@ pipeline{
         }
         stage("bild"){
             steps{
-                sh 'mvn clen deploy'
+                sh 'mvn clen install'
             }
         }
     }
